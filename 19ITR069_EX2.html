@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Participant Form</title>
+    
+</head>
+<body bgcolor="Grey">
+
+    <br/>
+    <h1 align="center"><u>Participant Form</u></h1>
+
+    <form method="GET">
+        <table align=center cellspacing="1" cellpadding="10">
+            <tr>
+                <td><strong>Name</strong></td>
+                <td><input type="text" name="name" pattern="[A-Z a-z]{3,}" /></td>
+            </tr>
+            <tr>
+                <td><strong>Date of Birth</strong></td>
+                <td><input type="date" /></td>
+            </tr>
+            <tr>
+                <td><strong>Gender</strong></td>
+                <td>
+                    <input type="radio" name="gender" value="M"  />Male
+                    <input type="radio" name="gender" value="F" />Female
+                    <input type="radio" name="gender" value="T" />TransGender
+                    <input type="radio" name="gender" value="Not" />Prefer Not To Say
+                </td>
+            </tr>
+            <tr>
+                <td><strong>E Mail</strong></td>
+                <td><input type="email"  class="mail" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Mobile Number</strong></td>
+                <td><input type="text" pattern="[0-9]{10}"  /></td>
+            </tr>
+            <tr>
+                <td><strong>Address</strong></td>
+                <td><textarea rows="4" cols="22"></textarea></td>
+            </tr>
+            <tr>
+                <td><strong>State</strong></td>
+                <td>
+                    <select>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="AD">Andhra</option>
+                        <option value="KL">Kerala</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="TA">Telangana</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Pincode</strong></td>
+                <td><input type="text" pattern="[0-9]{6}" name="PIN" /></td>
+            </tr>
+            <tr>
+                <td><strong>Events Interested</strong></td>
+                <td>
+
+                        <input type="checkbox" name="Programming" />Programming 
+                        <input type="checkbox" name="Debugging" />Debugging
+                        <input type="checkbox" name="Seminar" />Seminar
+                        <input type="checkbox" name="Paper Presentation" />Paper Presentation
+                        <input type="checkbox" name="Model Presentation" />Model Presentation
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><strong>
+                    <p >Accomodation?</p>
+                </strong> 
+                </td>
+                <td>
+                    <input type="radio" name="Accomodation" value="Yes"/>Yes
+                    <input type="radio" name="Accomodation" value="No" />No
+                </td>
+            </tr>
+        </table>
+        <p align="center">
+            <input type="submit" id="sub" />
+        </p>
+    </form>
+</body>
+</html>
