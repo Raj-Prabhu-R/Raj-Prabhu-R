@@ -1,0 +1,214 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+/*Home*/
+body
+{
+    background-image:url(https://wallpaperaccess.com/full/552032.jpg);
+    background-size:cover;
+    background-position:top;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.text
+{
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    text-decoration: none;
+    text-shadow: 10px;
+    font-family: fantasy;
+    margin: 0;
+    padding:0;
+    text-align:left;
+    font-size:50px;
+    color:chartreuse;
+}
+.menu
+{
+    background:bisque;
+    text-align: center;
+}
+.menu p
+{
+    text-decoration: none;
+    text-shadow: 10px;
+    font-family: fantasy;
+    margin: 0;
+    padding:0;
+    text-align:left;
+    font-size:50px;
+}
+.menu ul
+{
+    display:inline-flex;
+    list-style:none;
+    color:white;
+}
+.menu ul li
+{
+    width:120px;
+    margin:10px;
+    padding:10px;
+}
+.menu ul li a
+{
+    text-decoration:none;
+    color:navy;
+}
+.active,.menu ul li:hover
+{
+    background-color:cadetblue;
+    border-radius:5px;
+}
+.sub1
+{
+    display:none;
+}
+.menu ul li:hover .sub1
+{
+    display:block;
+    position:fixed;
+    background-color:white;
+    margin:10px;
+}
+.menu ul li:hover .sub1 ul
+{
+    display:block;
+    margin:10px;
+}
+.menu ul li:hover .sub1 ul li
+{
+    width:100px;
+    padding:10px;
+    border-bottom:1px dotted wheat;
+    text-align:left;
+}
+/*News*/
+.video
+{
+    margin: 0;
+    padding:0; 
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    right:15px;
+    bottom:0px;
+}
+/*About*/
+.about p
+{
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    font-family: fantasy;
+    margin: 0;
+    padding:0;
+    font-size: 30px;
+    text-align:left;
+    color:ivory;
+}
+/*Services*/
+.service img
+{
+    position:relative;
+}
+#img1
+{
+    position: absolute;
+    width:200px;
+    height:200px;
+    top: 200px;
+    left: 15px;
+}
+#img2
+{
+    position: absolute;
+    width:200px;
+    height:200px;
+    left: 225px;
+    top: 200px;
+}
+#img3
+{
+    position: absolute;
+    width:200px;
+    height:200px;
+    left: 450px;
+    top: 200px;
+}
+#img4
+{
+    position: absolute;
+    width:200px;
+    height:200px;
+    left: 675px;
+    top: 200px;
+}
+#img5
+{
+    position: absolute;
+    width:200px;
+    height:200px;
+    left: 900px;
+    top: 200px;
+}
+#img6
+{
+    position: absolute;
+    width:200px;
+    height:200px;
+    left: 1125px;
+    top: 200px;
+}
+#button1
+{
+    position: absolute;
+    top: 425px;
+    left: 100px;
+}
+#button2
+{
+    position: absolute;
+    top: 425px;
+    left: 300px;
+}
+#button3
+{
+    position: absolute;
+    top: 425px;
+    left: 550px;
+}
+#button4
+{
+    position: absolute;
+    top: 425px;
+    left: 750px;
+}
+#button5
+{
+    position: absolute;
+    top: 425px;
+    left: 1000px;
+}
+#button6
+{
+    position: absolute;
+    top: 425px;
+    left: 1200px;
+}
+/*contact*/
+#table
+{
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:500px;
+    height:200px;
+}
+#con
+{
+    color:darkturquoise;
+}
