@@ -1,0 +1,42 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.header
+{
+    height:200px;
+}
+.navbar-style
+{
+    box-shadow: 0 5px 10px beige;
+}
+.icon-bar
+{
+    background:crimson;
+}
+li a
+{
+    color:darkblue;
+}
+.atb
+{
+    font-family: cursive;
+    color:lime;
+    text-shadow: indigo;
+    font-size:50px;
+    font-style: bold;
+}
+.text
+{
+    font-family: cursive;
+    color:springgreen;
+    font-size:30px;
+    font-style: bold;
+}
+.button
+{
+    height:50px;
+    width:100px;
+
+}
