@@ -1,0 +1,214 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+/*Home*/
+#b1
+{
+    background-image:url(https://tesla-cdn.thron.com/delivery/public/image/tesla/676da95d-942e-414c-8534-f1832f0d4ced/bvlatuR/std/3296x1798/ms-homepage-desktop);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    top:0;
+    z-index:-22;
+    margin-bottom:10px;
+}
+#s1
+{
+    color:gray;
+    text-decoration:gray underline;
+    text-align: center;
+    margin-top:0px;
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color:white;
+    font-style: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#s1 a
+{
+    color:grey;
+}
+#logo
+{
+    opacity:0.25;
+    background:transparent;
+    height:60px;
+    width:200px;
+}
+.mynav{
+    width: 100%;
+    height: 20px;
+    line-height: 50px;
+    border:transparent;
+    opacity:0.25;
+}
+.mynav .mynavb
+{
+    background: rgb(0,0,0,0.3) !important;
+}
+nav ul{
+    float:center;
+    margin-right: 50px;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline;
+    transition: 0.7s all;
+}
+nav ul li:hover{
+    background-color:gainsboro;
+    height:60px;
+    width:110px;
+    float:center;
+}
+nav ul li a{
+    float:center;
+    text-decoration: none;
+    opacity:0;
+}
+#td a
+{
+    text-decoration:underline;
+    color:black;
+}
+#b
+{
+    margin-top:220px;
+}
+#b a
+{
+    color:black;
+    text-decoration:none;
+}
+/*Model S*/
+.white
+{
+    color:white;
+}
+#b2
+{
+    background-image:url(https://tickernews.co/wp-content/uploads/2021/06/ms-homepage-social.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    top:0;
+    z-index:-22;
+    margin-bottom:10px;
+}
+/*Model 3*/
+#b3
+{
+    background-image:url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8fa80996-ac5c-4cef-9534-a61a9457bfb3/bvlatuR/std/2880x1800/M3-Hero-LHD-US-D);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    top:0;
+    z-index:-22;
+    margin-bottom:10px;
+}
+#logo
+{
+    opacity:1;
+    background:transparent;
+    height:60px;
+    width:200px;
+}
+.mynav3{
+    width: 100%;
+    height: 20px;
+    line-height: 50px;
+    border:transparent;
+    opacity:1;
+}
+.mynav3 .mynavb3
+{
+    background: rgb(0,0,0,0.7) !important;
+}
+nav ul{
+    float:center;
+    margin-right: 50px;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline;
+    transition: 0.7s all;
+}
+nav ul li:hover{
+    background-color:gainsboro;
+    height:60px;
+    width:110px;
+    float:center;
+}
+nav ul li a{
+    float:center;
+    text-decoration: none;
+    opacity:1;
+}
+/*Model X*/
+#b4
+{
+    background-image:url(https://tesla-cdn.thron.com/delivery/public/image/tesla/da705069-91b5-41cb-86f3-86a585c6fdf3/bvlatuR/std/2880x1800/MX-Hero-Desktop);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    top:0;
+    z-index:-22;
+    margin-bottom:10px;
+}
+/*Model Y*/
+#b5
+{
+    background-image:url(https://thedriven.io/wp-content/uploads/2019/03/model-y-red.jpg?w=640);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    top:0;
+    z-index:-22;
+    margin-bottom:10px;
+}
+/*Solar Panel*/
+#b7
+{
+    background-image:url(https://tesla-cdn.thron.com/delivery/public/image/tesla/45992f1c-a33a-4a04-b1f0-338aff182f8e/bvlatuR/std/2880x1800/_25-Hero-D);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    top:0;
+    z-index:-22;
+    margin-bottom:10px;
+}
+/*Solar Roof*/
+#b6
+{
+    background-image:url(https://www.teslarati.com/wp-content/uploads/2020/06/tesla-energy-solar-roof.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    top:0;
+    z-index:-22;
+    margin-bottom:10px;
+}
+/*Account*/
